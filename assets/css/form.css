@@ -1,0 +1,184 @@
+@font-face {
+    font-family: poppins;
+    src: url(./image/Poppins-Regular.8081832fc5cfbf634aa6.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+
+.logo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logo1 {
+    width: 250px;
+    /* vertical-align: middle; */
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading1 {
+    line-height: 50px;
+    font-size: 15px;
+    color: grey;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    line-height: 70px;
+    text-decoration: none !important;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.new_application {
+    color: #8DC63F;
+}
+
+.download {
+    color: #0D6DB7;
+}
+
+.result {
+    color: #0D6DB7;
+}
+
+.hint {
+    color: #0D6DB7;
+    font-size: 15px;
+    display: flex;
+    line-height: 0px;
+}
+
+.form {
+    padding: 0px 180px 0px 180px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    /* align-items: center;
+    justify-content: space-around; */
+    text-align: center;
+}
+
+/* span {
+    display: flex;
+    justify-content: flex-start;
+} */
+
+.select_city,
+.select_course,
+.name,
+.father-name {
+    width: 100%;
+}
+
+/* .select_course {
+    width: 100%;
+} */
+
+.dropdown {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-color: #8dc63f;
+    border-radius: 5px;
+    color: #666;
+    font-size: 15px;
+    padding: 15px;
+}
+
+/* select option {
+    border-radius: 5px;
+    background-color: transparent;
+} */
+
+input {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+    color: #666;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.dropdown:focus {
+    border: 1px solid #0D6DB7;
+}
+
+input:hover {
+    border: 1px solid #0D6DB7;
+}
+
+input::before {
+    border: 1px solid #0D6DB7;
+}
+
+#file {
+    border: none;
+}
+
+#submit {
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #0D6DB7;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+#submit:active {
+    opacity: 0.8;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+.box {
+    text-align: center;
+    margin-top: 25%;
+}
+
+.login {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+#login_btn {
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #0D6DB7;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+#login_btn:active {
+    opacity: 0.8;
+}
+
+#login_btn:hover {
+    cursor: pointer;
+}

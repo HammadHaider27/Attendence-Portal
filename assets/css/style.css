@@ -1,0 +1,30 @@
+@font-face {
+    font-family: poppins;
+    src: url();
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#login, #signup {
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.create{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    background-color: #42b72a !important;
+    color: #fff !important;
+}
+
+.admin-heading {
+    
+}
