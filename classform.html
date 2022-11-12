@@ -15,8 +15,7 @@
 <body>
     <div class="logo">
         <img class="logo1" src="./assets/images/saylani-logo.png" alt="">
-        <h2 class="heading">Course Registration Form</h2>
-        <span class="heading1">Service - Education - Registration</span>
+        <h2 class="heading">Add Class Form</h2>
     </div>
 
     <div class="links">
@@ -33,17 +32,39 @@
 
     <!-------XXXXXX-----------------XXXXX------------------XXXXXXX-------->
 
-        <!-- name -->
-        <div style="width: 78%; margin: 0 auto;" class="name">
-            <span class="hint">Course Name</span><br>
-            <input id="course_name" type="text" placeholder="Enter Course Name">
+    <div class="form">
+        <div class="name">
+            <span class="hint">Class Name</span><br>
+            <input id="class_name" type="text" placeholder="Enter Class Name">
+        </div>
+
+        <!-- Class Timing -->
+        <div class="name">
+            <span class="hint">Class Timing</span><br>
+            <input id="timing" type="text" placeholder="Enter Class Timing">
+        </div>
+        <!-- teachername -->
+        <div class="father-name">
+            <span class="hint">Teacher Name</span><br>
+            <input id="teachername" type="text" placeholder="Enter Teacher Name">
         </div>
     </div>
 
-    
+    <div class="form">
+        <!-- section -->
+        <div class="name">
+            <span class="hint">Section</span><br>
+            <input id="section" type="email" placeholder="Enter Section">
+        </div>
+        <!-- phone -->
+        <div class="father-name">
+            <span class="hint">Course</span><br>
+            <input id="course" type="number" maxlength="" placeholder="Enter Course Name">
+        </div>
+    </div>
 
     <div class="form">
-        <button id="add_course_button">SUBMIT</button>
+        <button id="add_class_button" >SUBMIT</button>
     </div>
 
     <script src="form.js"></script>
